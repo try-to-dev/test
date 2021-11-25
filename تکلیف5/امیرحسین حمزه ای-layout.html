@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Layout</title>
+	<style>
+		.head1 {
+			font-size:40px;
+			color:#aa209f;
+			font-weight:bold;
+		}
+		.head2 {
+			font-size:17px;
+			margin-left:10px;
+			margin-bottom:15px;
+		}
+		body {
+			margin: 0 auto;
+			background-position:center;
+			background-size: contain;
+		}
+	
+		.menu {
+			position: sticky;
+			top: 0;
+			background-color: #aa209f;
+			padding:10px 0px 10px 0px;
+			color:white;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.menu a {
+			float: left;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		.menu-log {
+			right: auto;
+			float: right;
+		}
+		footer {
+			width: 100%;
+			bottom: 0px;
+			background-color: #000;
+			color: #fff;
+			position: absolute;
+			padding-top:20px;
+			padding-bottom:50px;
+			text-align:center;
+			font-size:30px;
+			font-weight:bold;
+		}
+		.body_sec {
+			border: 3px solid #aa209f;
+			margin-left:20px;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<!-- Header  -->
+	<header>
+		<div class="head1">Layout Test</div>
+		<div class="head2">This is a test.</div>
+	</header>
+	
+	<!-- Menu Navigation Bar -->
+	<div class="menu">
+		<a href="">HOME</a>
+		<a href="">NEWS</a>
+		<a href="">NOTIFICATIONS</a>
+		<div class="menu-log">
+			<a href="">LOGIN</a>
+		</div>
+	</div>
+	
+	<!-- Body  -->
+	<div class = "body_sec">
+		<section id="Content">
+			<h3>Content </h3>
+		</section>
+	</div>
+	
+	<!-- Footer  -->
+	<footer>Footer </footer>
+</body>
+</html>				
