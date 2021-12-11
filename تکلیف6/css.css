@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: darkcyan; 
+    margin: auto; 
+    text-align: center; 
+    padding: 2%; 
+    margin: 2%;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example{
+    from {background-color: darkcyan;}
+    to{background-color: black;}
+}
+
+.row{
+    display: flex;
+    margin: 2%;
+    height: 60%;
+}
+
+.main{
+
+    flex: 60%;
+    background-color: rgb(210, 105, 30);
+    margin-left: 2%;
+}
+
+.main h1{
+    text-align: center;
+    margin-bottom: -15%;
+    margin-top: 14%;
+}
+
+.img-div{
+    display: flex;
+    margin-top: 30%;
+
+}
+
+.img-div div{
+    margin: auto;
+    margin-top: -10%;
+    padding: 12%;
+    background-color: darkkhaki;   
+    transition: 100ms;
+}
+
+.img-div div:hover{
+    background-color: rgb(214, 203, 47);
+    border-radius: 30px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+}
+
+.aside{
+    flex: 40%;
+    background-color: crimson;
+    text-align: center;
+    padding-top: 13%;
+    transition: 300ms;
+    
+}
+
+.aside:hover{
+    border-radius: 30px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+}
+
+.footer{
+    background-color: darkcyan; 
+    margin: auto; 
+    text-align: center; 
+    padding: 2%; 
+    margin: 2%;
+}
+
+@media screen and (max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+    .main{
+        margin: 0%;
+        margin-top: 2%;
+    }
+}
+
